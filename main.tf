@@ -5,7 +5,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "example" {
-	ami	= "ami-0dad20bd1b9c8c004"
+	ami	= var.amis[var.region]
 	instance_type = "t2.micro"
 	tags = {
 		Name = "example"
