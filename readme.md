@@ -6,4 +6,4 @@ tfstate is stored at terraform enterpirse so you have config user token in terra
 * tf init
 * tf apply 
 
-Destroy all resource created: `tf detroy`
+Destroy all resource created: `tf destroy`
